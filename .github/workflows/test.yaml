@@ -1,0 +1,16 @@
+name: test
+on: workflow_dispatch
+jobs: 
+  job: 
+    runs-on: windows:latest
+    steps: 
+      run: |
+        echo "hi-hello"
+        pwd
+        df -h
+        du -h
+        free -h
+
+
+
+
