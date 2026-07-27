@@ -4,10 +4,11 @@ jobs:
   job: 
     runs-on: windows-latest
     steps: 
-      run: |
-       echo "hi-hello"
-       pwd
-       df -h
-       du -h
-       free -h
-       whoami
+      - name: test case
+        run: |
+         echo "hi-hello"
+         pwd
+         df -h
+         du -h
+         free -h
+         whoami
