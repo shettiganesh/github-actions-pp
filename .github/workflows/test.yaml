@@ -4,13 +4,13 @@ jobs:
   job: 
     runs-on: windows:latest
     steps: 
-      run: |
-        echo "hi-hello"
-        pwd
-        df -h
-        du -h
-        free -h
-        whoami
+    run: |
+     echo "hi-hello"
+     pwd
+     df -h
+     du -h
+     free -h
+     whoami
 
 
 
