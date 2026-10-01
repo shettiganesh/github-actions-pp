@@ -9,6 +9,5 @@ jobs:
          echo "hi-hello"
          pwd
          df -h
-         du -h
-         free -h
+         du -u
          whoami
